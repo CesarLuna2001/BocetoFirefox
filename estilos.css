@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    width: 1200px;
+    margin: auto;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.margen{
+    padding: 15px;
+}
+
+.contenedor_moz{
+    display: inline-block;
+    width: 12%;
+    vertical-align: middle;
+}
+
+.contenedor_moz img{
+    width: 100%
+}
+
+.contenedor_nav{
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.contenedor_nav a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contenedor_nav a:hover{
+    background-color: #00B4F0;
+    color: white;
+}
+
+.contenedor_btnnav{
+    display: inline-block;
+    width: 16%;
+    padding: 5px 0;
+    border-radius: 15px;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: purple;
+    border:1px purple solid;
+}
+
+.contenedor_btnnav:hover{
+    background-color: #00B4F0;
+}
+
+.contenedor_btnnav a{
+    text-decoration: none;
+}
+
+.contenedor_logo img{
+    height: 50px;
+}
+
+.contenedor_texto{
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    padding: 0;
+}
+
+.contenedor_texto h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.btn_descargar{
+    display: inline-block;
+    background-color: purple;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.btn_descargar:hover{
+    background-color: #00D69B;
+}
+
+.contenedor_imgcompu{
+    display: inline-block;
+    vertical-align: top;
+    width: 44%;
+}
+
+.contenedor_imgcompu img{
+    width: 100%;
+}
+
+.contenedor_descargar footer{
+    font-size: 12px;
+}
+
+.contenedor_dino{
+    background-color: #f0f0f0f0;
+}
+
+.contenedor_imgdino{
+    display: inline-block;
+    width: 30%;
+}
+
+.contenedor_imgdino img{
+    height: 200px;
+}
+
+.contenedor_textdino{
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.contenedor_textdino h2{
+    font-size: 38px;
+    line-height: 45px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor_textos{
+    margin-top: 60px;
+    margin-bottom: 40px ;
+}
+
+.contenedor_impacto{
+    display: inline-block;
+    width: 43%;
+    margin-left: 50px;
+}
+
+.contenedor_impacto ul{
+    color: blue;
+}
+
+
+.contenedor_innova{
+    display: inline-block;
+    width: 47%;
+    margin-left: 50px;
+}
+
+.contenedor_innova ul{
+    color: blue;
+}
+
+.contenedor_fichas img{
+    width: 100px;
+}
+
+.contenedor_extensiones{
+    display: inline-block;
+    width: 30%;
+}
+
+.contenedor_extensiones h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.contenedor_extensiones p{
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor_empleos{
+    display: inline-block;
+    width: 30%;
+}
+
+.contenedor_empleos h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.contenedor_empleos p{
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor_ayuda{
+    display: inline-block;
+    width: 30%;
+}
+
+.contenedor_ayuda h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.contenedor_ayuda p{
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor_noticias {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.contenedor_news {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+}
+
+.contenedor_news img {
+    width: 100%;
+}
+
+.contenedor_correo {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.contenedor_correo h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    margin-bottom: 24px;
+}
+
+.form label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #f0f0f0f0;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.nota {
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+
+
